@@ -8,14 +8,15 @@ The v1-5-pruned.safetensors model is a Stable Diffusion v1.5 checkpoint that has
 
 2.download v1-5-pruned.safetensors(Stable Diffusion Model Checkpoint)
 # Usage
-1️⃣ Run ComfyUI with GPU Acceleration
+1️⃣ Open ComfyUI Folder
+    Navigate to the ComfyUI directory where it is installed.
+    
+2️⃣ Run ComfyUI on CPU
 
-    Double-click run_gpu
+    Double-click on run_cpu
     A Command Prompt window will open and start processing.
-2️⃣ Open ComfyUI in a Web Browser
-
     Once started, your browser will automatically open http://127.0.0.1:8188
-    If it doesn't open automatically, manually open the URL in your browser.
+   
 3️⃣Generate Images Using ComfyUI
 
     Load your Stable Diffusion model (v1-5-pruned.safetensors) in the "Load Checkpoint" node.
